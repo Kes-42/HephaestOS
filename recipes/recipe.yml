@@ -33,6 +33,3 @@ modules:
         - cosmic-greeter.service
       disabled:
         - gdm.service
-    user: 
-      enabled:
-        - kdeconnect.service
