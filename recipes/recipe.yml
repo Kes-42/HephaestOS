@@ -25,7 +25,7 @@ modules:
       - starship
       - cosmic-desktop
       - cosmic-greeter
-
+      - kde-connect
   # Systemd module properly separated and un-indented
   - type: systemd
     system:
@@ -33,3 +33,6 @@ modules:
         - cosmic-greeter.service
       disabled:
         - gdm.service
+    user: 
+      enabled:
+        - kdeconnect.service
